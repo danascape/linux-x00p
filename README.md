@@ -1,4 +1,10 @@
-## Asus Max M1 (X00P)
+# Asus Max M1 (X00P)
+
+| Branch | Commit SHA | Build Status |
+| :----- | :--------- | :----------- |
+
+
+## Device Specifications
 
 | Feature                 | Specification                     |
 | :---------------------- | :-------------------------------- |
@@ -17,6 +23,3 @@
 | Release Date            | October 2018                      |
 
 ![Zenfone Max M1](https://www.asus.com/media/IN/products/Av2HDWl1WLs1j7bm/P_setting_xxx_0_90_end_300.png "Zenfone Max M1")
-
-| Branch | Commit SHA | Build Status |
-| :----- | :--------- | :----------- |
