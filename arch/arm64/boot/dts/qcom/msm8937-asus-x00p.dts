@@ -25,7 +25,6 @@
 	qcom,board-id = <QCOM_BOARD_ID_MTP 0x0>;
 
 	aliases {
-		serial0 = &blsp1_uart2;
 		mmc0 = &sdhc_1;
 		mmc1 = &sdhc_2;
 	};
@@ -35,7 +34,7 @@
 		#size-cells = <2>;
 		ranges;
 
-		stdout-path = "serial0:115200n8";
+		stdout-path = "framebuffer0";
 
 		framebuffer0: framebuffer@90001000 {
 			compatible = "simple-framebuffer";
@@ -53,7 +52,6 @@
 				 <&gcc GCC_MDSS_PCLK0_CLK>,
 				 <&gcc GCC_MDSS_ESC0_CLK>;
 			power-domains = <&gcc MDSS_GDSC>;
-			status = "disabled";
 		};
 	};
 
