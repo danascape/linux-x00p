@@ -201,6 +201,7 @@ properties:
 
       - items:
           - enum:
+              - asus,x00p
               - xiaomi,land
           - const: qcom,msm8937
 
